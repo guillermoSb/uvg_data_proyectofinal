@@ -1,0 +1,9 @@
+altair
+pandas
+streamlit
+plotly
+tensorflow
+scikit-learn
+torch
+opencv-python-headless
+torchvision
