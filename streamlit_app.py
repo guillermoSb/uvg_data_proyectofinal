@@ -47,3 +47,18 @@ if uploaded_file is not None:
     prediction = loaded_model.predict(img)
     print("Predicted extent:", prediction[0][0])
     st.write("Predicted extent:", prediction[0][0] * 10)
+
+"""
+Gráficas modelo 01
+"""
+image = Image.open('model01_train.jpeg')
+st.image(image, caption='Entrenamiento modelo 01')
+
+image = Image.open('model01_mse.jpeg')
+st.image(image, caption='MSE modelo 01')
+
+"""
+Gráficas modelo 02
+"""
+image = Image.open('model02_train.jpeg')
+st.image(image, caption='Entrenamiento modelo 02')
